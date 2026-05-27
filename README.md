@@ -186,7 +186,7 @@ cat - | ../ELF_64/CVE-2025-6660 evil_shell.gif
 
 ## Static Analysis
 
-SonarQube and Semgrep where used as static analysis scanner. Configuration is in `sonar-project.properties` and results are stored in `sonarqube_results.json`.
+SonarQube and Semgrep where used as static analysis scanner. Configuration is in `sonar-project.properties`. SonarQube results are stored in `sonarqube_results.json` and Semgrep are in `Semgrep_results.md`.
 
 To re-run analysis (requires a running SonarQube instance):
 ```bash
