@@ -186,7 +186,7 @@ cat - | ../ELF_64/CVE-2025-6660 evil_shell.gif
 
 ## Static Analysis
 
-SonarQube was used as the primary AI-assisted scanner. Configuration is in `sonar-project.properties` and results are stored in `sonarqube_results.json`.
+SonarQube and Semgrep where used as static analysis scanner. Configuration is in `sonar-project.properties` and results are stored in `sonarqube_results.json`.
 
 To re-run analysis (requires a running SonarQube instance):
 ```bash
